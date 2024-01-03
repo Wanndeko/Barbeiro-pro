@@ -15,6 +15,8 @@ gap: 8px;
 export const CardGrid = styled.div`
 height: 300px;
 width: 300px;
+text-align: center;
 background-color: #232222;
+color: #fff;
 `
 
