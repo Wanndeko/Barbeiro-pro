@@ -1,9 +1,7 @@
-import { ButtonOr } from "./style";
+import { ButtonOr } from './style'
 
-function ButtonOrange() {
-    return ( <ButtonOr>Button</ButtonOr>  );
+function ButtonOrange({ children, ...props }) {
+  return <ButtonOr {...props}>{children}</ButtonOr>
 }
 
-export default ButtonOrange;
-
-
+export default ButtonOrange

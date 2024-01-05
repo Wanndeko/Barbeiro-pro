@@ -1,4 +1,3 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const TcTextArea = styled.div`
-`
+export const TcTextArea = styled.div``
