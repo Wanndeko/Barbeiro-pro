@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import img from '../assets/baner-barba.png'
+import CutBg from '../assets/baner-corte.jpg'
 import GyBg from '../assets/gy-bg.png'
 
 export const Background = styled.div`
@@ -8,6 +9,7 @@ export const Background = styled.div`
   /* height: 100vh; */
   background-size: cover;
 `
+
 export const Main = styled.main`
   display: flex;
   flex-direction: column;
@@ -16,6 +18,7 @@ export const Main = styled.main`
   text-align: center;
   color: #fff;
 `
+
 export const PayMet = styled.img`
   width: 70%;
 `
@@ -87,5 +90,60 @@ export const ParaContainer = styled.section`
         color: #ec8c08;
       }
     }
+  }
+`
+
+export const ResultContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  gap: 30px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  p {
+    font-size: 35px;
+    color: #fff;
+    width: 30%;
+
+    > svg {
+      font-size: 50px;
+    }
+  }
+
+  b,
+  svg {
+    color: #ec8c08;
+  }
+
+  img {
+    height: 400px;
+  }
+`
+
+export const CertifyContainer = styled.div`
+  background-image: url(${CutBg});
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 70px 120px;
+  text-align: center;
+  color: #fff;
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  img {
+    width: 60%;
   }
 `

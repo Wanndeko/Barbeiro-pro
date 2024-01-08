@@ -1,4 +1,5 @@
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight'
 
 import ResultPrint from '../assets/depoimento1-1-removebg-preview-3-1.png'
 import Certify from '../assets/icons/certificado.png'
@@ -21,7 +22,9 @@ import {
   ParaContainer,
   LogoContainer,
   IframeContainer,
-  PayMet
+  PayMet,
+  ResultContainer,
+  CertifyContainer
 } from './style'
 
 function App() {
@@ -96,19 +99,29 @@ function App() {
         <section>
           <GridVideos />
         </section>
+        <ResultContainer>
+          <div>
+            <p>
+              Confira Também alguns dos <b>resultados de alunos: </b>
+              <KeyboardDoubleArrowRightIcon />
+            </p>
+            <img src={ResultPrint} alt="print resultados alunos" />
+            <img src={ResultPrint} alt="print resultados alunos" />
+            <img src={ResultPrint} alt="print resultados alunos" />
+            <img src={ResultPrint} alt="print resultados alunos" />
+          </div>
+          <ButtonOrange>Quero me tornar um Barbeiro Profissional</ButtonOrange>
+        </ResultContainer>
         <section>
-          <p>Confira Também alguns dos resultados de alunos :</p>
-          <img src={ResultPrint} alt="print resultados alunos" />
-          <ButtonOrange />
-        </section>
-        <section>
-          <h2>Certificado de conclusão</h2>
-          <p>
-            Após concluir o Curso de GENTLEMAN BARBER você irá baixar um
-            maravilhoso certificado com 70 Horas, direto de sua área restrita,
-            sem custo adicional.
-          </p>
-          <img src={Certify} alt="foto certificado" />
+          <CertifyContainer>
+            <h2>Certificado de conclusão</h2>
+            <p>
+              Após concluir o Curso de GENTLEMAN BARBER você irá baixar um
+              maravilhoso certificado com 70 Horas, direto de sua área restrita,
+              sem custo adicional.
+            </p>
+            <img src={Certify} alt="foto certificado" />
+          </CertifyContainer>
         </section>
         <section>
           <Bonus />

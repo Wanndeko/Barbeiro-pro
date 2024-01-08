@@ -1,5 +1,7 @@
+import ContBoock from '../../assets/icons/contabiidade.png'
 import BlueBoock from '../../assets/icons/gestaoe-evndas.png'
-import { BonusArea, CardBonus } from './style'
+import MkBoock from '../../assets/icons/marketinng.png'
+import { BonusArea, CardBonus, CardArea, TextArea } from './style'
 function Bonus() {
   return (
     <BonusArea>
@@ -7,40 +9,44 @@ function Bonus() {
       <p>
         E AINDA TEM MAIS! OLHA SÓ O QUE VOCÊ VAI LEVAR COMPLETAMENTE GRÁTIS.
       </p>
-      <div>
+      <CardArea>
         <CardBonus>
-          <h2>Gestão e vendas</h2>
           <img src={BlueBoock} alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos necessitatibus amet sapiente natus iste, quod error
-          </p>
+          <TextArea>
+            <h2>Gestão e vendas</h2>
+            <p>
+              Dignissimos necessitatibus amet sapiente natus iste, quod error
+            </p>
+          </TextArea>
         </CardBonus>
         <CardBonus>
-          <h2>Contabilidade e gestão fiscal</h2>
-          <img src={BlueBoock} alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos necessitatibus amet sapiente natus iste, quod error
-          </p>
+          <img src={ContBoock} alt="" />
+          <TextArea>
+            <h2>Contabilidade e gestão fiscal</h2>
+            <p>
+              Dignissimos necessitatibus amet sapiente natus iste, quod error
+            </p>
+          </TextArea>
         </CardBonus>
         <CardBonus>
-          <h2>Marketing para redes sociais</h2>
-          <img src={BlueBoock} alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos necessitatibus amet sapiente natus iste, quod error
-          </p>
+          <img src={MkBoock} alt="" />
+          <TextArea>
+            <h2>Marketing para redes sociais</h2>
+            <p>
+              Dignissimos necessitatibus amet sapiente natus iste, quod error
+            </p>
+          </TextArea>
         </CardBonus>
         <CardBonus>
-          <h2>Planilha de cálculo de margem de lucro</h2>
-          <img src={BlueBoock} alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos necessitatibus amet sapiente natus iste, quod error
-          </p>
+          <img src={ContBoock} alt="" />
+          <TextArea>
+            <h2>Planilha de cálculo de margem de lucro</h2>
+            <p>
+              Dignissimos necessitatibus amet sapiente natus iste, quod error
+            </p>
+          </TextArea>
         </CardBonus>
-      </div>
+      </CardArea>
     </BonusArea>
   )
 }

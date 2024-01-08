@@ -1,10 +1,12 @@
 import Marce from '../../assets/male-beauty-concept-portrait-of-a-fashionable-young-man-with-stylish-haircut-wearing-trendy-suit-posing-over-black-studio-background-1_ccexpress-e1646685979865.png'
-import { TcTextArea } from './style'
+import { TcTextArea, TcContainer } from './style'
 function TcAre() {
   return (
-    <>
+    <TcContainer>
       <TcTextArea>
-        <p>Conheça seu professor</p>
+        <p>
+          <b>Conheça seu professor</b>
+        </p>
         <h2>Marcelo Carvalho</h2>
         <p>
           Olá, muito prazer meu nome é marcelo Carvalho, sou formado em
@@ -30,7 +32,7 @@ function TcAre() {
         </p>
       </TcTextArea>
       <img src={Marce} alt="Marcelo Foto" />
-    </>
+    </TcContainer>
   )
 }
 

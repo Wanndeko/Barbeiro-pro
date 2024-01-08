@@ -1,10 +1,12 @@
-import { GridContainer } from './style'
+import { VideosContainer, GridContainer } from './style'
 
 function GridVideos() {
   return (
-    <>
-      <h2>Confira Alguns Depoimentos de Alunos</h2>
-      <GridContainer>
+    <GridContainer>
+      <h2>
+        Confira Alguns <b>Depoimentos</b> de Alunos
+      </h2>
+      <VideosContainer>
         <iframe
           width="367"
           height="219"
@@ -59,8 +61,8 @@ function GridVideos() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-      </GridContainer>
-    </>
+      </VideosContainer>
+    </GridContainer>
   )
 }
 
