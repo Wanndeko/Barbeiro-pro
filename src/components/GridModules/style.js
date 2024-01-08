@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
+import GyBg from '../../assets/gy-bg.png'
+
 export const Container = styled.div`
+  background-image: url(${GyBg});
   width: 100%;
   height: 100%;
   text-align: center;
@@ -19,7 +22,8 @@ export const Container = styled.div`
 export const ContainerGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, auto));
-  gap: 8px;
+  gap: 25px;
+  padding: 0 80px;
 `
 
 export const CardGrid = styled.div`
@@ -30,8 +34,8 @@ export const CardGrid = styled.div`
   gap: 10px;
   padding: 10px;
   height: 300px;
-  width: 360px;
-  background-color: #232222;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #2b2a2a 0%, #202020 100%);
   font-size: 13px;
   border-radius: 5px;
   border-top: 2px solid #ec8c08;
@@ -41,5 +45,7 @@ export const CardGrid = styled.div`
   }
   p {
     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: normal;
   }
 `

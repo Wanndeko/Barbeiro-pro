@@ -2,7 +2,6 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 
 import ResultPrint from '../assets/depoimento1-1-removebg-preview-3-1.png'
 import Certify from '../assets/icons/certificado.png'
-import warranty from '../assets/icons/garantia.png'
 import LogoBarb from '../assets/icons/logo-m.png'
 import PayMetod from '../assets/icons/metodos-200-1.png-1.webp'
 import GentlBarb from '../assets/portrait-male-hairstylist-looking-camera.png'
@@ -12,16 +11,17 @@ import Carousel from '../components/Carousel/Carousel'
 import FaqArea from '../components/FaqArea/Faq'
 import GridModules from '../components/GridModules/Grid'
 import GridVideos from '../components/GridVideos/GridVid,'
+import PayGaranty from '../components/PayGaranty/Pay'
 import TcAre from '../components/TeacArea/TcArea'
 import {
   Background,
   Logo,
-  PayMet,
   Main,
   PayText,
   ParaContainer,
   LogoContainer,
-  IframeContainer
+  IframeContainer,
+  PayMet
 } from './style'
 
 function App() {
@@ -91,33 +91,7 @@ function App() {
           <GridModules></GridModules>
         </section>
         <section>
-          <div>
-            <p>
-              VOCÊ DEVE ESTAR SE PERGUNTANDO:
-              <br />
-              QUANTO VAI CUSTAR TUDO ISSO?
-            </p>
-            <p>
-              Você vai levar esse curso mega completo, e a oportunidade se
-              tornar, um barbeiro profissional, apenas por:
-            </p>
-            <p>12x de 47,14</p>
-            <p>ou apenas R$499 à vista</p>
-            <p>atenção, as vagas são limitadas!</p>
-            <ButtonOrange />
-            <PayMet src={PayMetod} />
-          </div>
-          <div>
-            <img src={warranty} />
-            <p>
-              Ainda não tem certeza? Não se preocupe. Se o conteúdo descrito
-              acima não for o mesmo que você receber, você tem 07 dias de
-              garantia e vamos devolver a quantia paga, sem burocracia!Lembrando
-              que seu acesso a plataforma e VITALÍCIO e nosso curso e
-              constantemente atualizado com novas técnicas e informações que vão
-              fazer de você um Barbeiro de Sucesso.
-            </p>
-          </div>
+          <PayGaranty />
         </section>
         <section>
           <GridVideos />

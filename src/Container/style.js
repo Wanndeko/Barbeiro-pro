@@ -16,6 +16,9 @@ export const Main = styled.main`
   text-align: center;
   color: #fff;
 `
+export const PayMet = styled.img`
+  width: 70%;
+`
 
 export const LogoContainer = styled.div`
   display: flex;
@@ -51,10 +54,6 @@ export const IframeContainer = styled.div`
   iframe {
     border-radius: 5px;
   }
-`
-
-export const PayMet = styled.img`
-  width: 70%;
 `
 
 export const ParaContainer = styled.section`

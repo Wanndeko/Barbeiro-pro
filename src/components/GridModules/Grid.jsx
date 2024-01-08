@@ -91,7 +91,7 @@ function GridModules() {
           </p>
         </CardGrid>
       </ContainerGrid>
-      <ButtonOrange />
+      <ButtonOrange>Quero me tornar um Barbeiro profissional</ButtonOrange>
     </Container>
   )
 }
