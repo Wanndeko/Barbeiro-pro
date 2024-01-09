@@ -24,7 +24,8 @@ import {
   IframeContainer,
   PayMet,
   ResultContainer,
-  CertifyContainer
+  CertifyContainer,
+  FooterArea
 } from './style'
 
 function App() {
@@ -133,16 +134,20 @@ function App() {
           <FaqArea />
         </section>
         <footer>
-          <p>
-            “Nenhuma informação contida neste produto deve ser interpretada como
-            uma afirmação da obtenção de resultados. Qualquer referência ao
-            desempenho passado ou potencial de uma estratégia abordada no
-            conteúdo não é, e não deve ser interpretada como uma recomendação ou
-            como garantia de qualquer resultado específico.”
-          </p>
-          <ButtonOrange />
-          <Logo src={LogoBarb} alt="logo-marca" />
-          <p>Gentleman Barber 2023 © Todos os direitos reservados</p>
+          <FooterArea>
+            <p>
+              “Nenhuma informação contida neste produto deve ser interpretada
+              como uma afirmação da obtenção de resultados. Qualquer referência
+              ao desempenho passado ou potencial de uma estratégia abordada no
+              conteúdo não é, e não deve ser interpretada como uma recomendação
+              ou como garantia de qualquer resultado específico.”
+            </p>
+            <ButtonOrange>
+              Quero me tornar um Barbeiro Profissional
+            </ButtonOrange>
+            <Logo src={LogoBarb} alt="logo-marca" />
+            <p>Gentleman Barber 2023 © Todos os direitos reservados</p>
+          </FooterArea>
         </footer>
       </Background>
     </>

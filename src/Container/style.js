@@ -147,3 +147,12 @@ export const CertifyContainer = styled.div`
     width: 60%;
   }
 `
+export const FooterArea = styled.div`
+  background-image: url(${GyBg});
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 70px;
+  color: #fff;
+`

@@ -9,8 +9,8 @@ export const ButtonOr = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   &:hover {
-    transform: scale(1.5, 1.5);
-    transition: all ease 0.3s;
+    transform: scale3d(1.3, 1.3, 1);
+    transition: ease 0.3s;
     opacity: 0.8;
   }
 `

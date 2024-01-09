@@ -4,19 +4,42 @@ import AccordionDetails from '@mui/material/AccordionDetails'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import Typography from '@mui/material/Typography'
 
+import { AccordionArea, FaqContainer, FaqTitle } from './style'
+
 function FaqArea() {
   return (
-    <>
-      <h2>FAQ</h2>
-      <p>Perguntas Frequentes </p>
-      <div>
+    <FaqContainer>
+      <FaqTitle>
+        <h2>FAQ</h2>
+        <p>
+          <u>Perguntas Frequentes</u>{' '}
+        </p>
+      </FaqTitle>
+      <AccordionArea>
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography>Accordion 1</Typography>
+            <Typography>Oque eu vou receber ?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>Posso acessar o curso por quanto tempo ?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -29,10 +52,10 @@ function FaqArea() {
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
+            aria-controls="panel1a-content"
+            id="panel1a-header"
           >
-            <Typography>Accordion 2</Typography>
+            <Typography>Dá para parcelar no boleto?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -42,17 +65,56 @@ function FaqArea() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion disabled>
+        <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel3a-content"
-            id="panel3a-header"
+            aria-controls="panel1a-content"
+            id="panel1a-header"
           >
-            <Typography>Disabled Accordion</Typography>
+            <Typography>Como eu recebo o certificado</Typography>
           </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
         </Accordion>
-      </div>
-    </>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>E seu tiver dúvidas</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>Acesso ao curso é vitalicio?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+      </AccordionArea>
+    </FaqContainer>
   )
 }
 
