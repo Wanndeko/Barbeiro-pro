@@ -20,6 +20,7 @@ import {
   Main,
   PayText,
   ParaContainer,
+  Paratext,
   LogoContainer,
   IframeContainer,
   PayMet,
@@ -61,7 +62,7 @@ function App() {
       </section>
       <section>
         <ParaContainer>
-          <div>
+          <Paratext>
             <h2>
               <b>PARA QUEM É O</b> #GENTLEMANBARBER
             </h2>
@@ -88,7 +89,8 @@ function App() {
               Para quem quer se profissionalizar e conquistar o seu sucesso
               nesse mercado que só cresce!
             </p>
-          </div>
+          </Paratext>
+
           <img src={GentlBarb} />
         </ParaContainer>
       </section>

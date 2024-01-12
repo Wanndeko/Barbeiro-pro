@@ -78,35 +78,36 @@ export const IframeContainer = styled.div`
 `
 
 export const ParaContainer = styled.section`
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 0px 70px;
   background-image: url(${GyBg});
   color: #fff;
+  position: relative;
+`
 
-  div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+export const Paratext = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-    h2 {
-      font-size: 36px;
-      b {
-        color: #ec8c08;
-        font-size: 50px;
-      }
+  h2 {
+    font-size: 36px;
+    b {
+      color: #ec8c08;
+      font-size: 50px;
     }
-
-    p {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 18px;
-      > svg {
-        color: #ec8c08;
-      }
+  }
+  p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    > svg {
+      color: #ec8c08;
     }
   }
 `
