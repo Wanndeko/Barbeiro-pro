@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
+import GyBg from '../../assets/gy-bg.png'
+
 export const GridContainer = styled.div`
+  background-image: url(${GyBg});
   h2 {
     text-align: center;
     font-size: 40px;
@@ -13,6 +16,7 @@ export const GridContainer = styled.div`
 `
 
 export const VideosContainer = styled.div`
+  z-index: 5;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

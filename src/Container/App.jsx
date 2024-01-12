@@ -55,101 +55,99 @@ function App() {
             <PayMet src={PayMetod} />
           </IframeContainer>
         </Main>
-        <section>
-          <Carousel />
-        </section>
-        <section>
-          <ParaContainer>
-            <div>
-              <h2>
-                <b>PARA QUEM É O</b> #GENTLEMANBARBER
-              </h2>
-              <p>
-                <CheckCircleIcon />
-                Para quem já trabalha na área e quer se atualizar
-              </p>
-              <p>
-                <CheckCircleIcon />
-                Para quem está começando do zero e nunca teve contato com o
-                mundo da barbearia
-              </p>
-              <p>
-                <CheckCircleIcon />
-                Para quem quer se profissionalizar e conquistar o seu sucesso
-                nesse mercado que só cresce!
-              </p>
-              <p>
-                <CheckCircleIcon />
-                Para quem já trabalha na área e quer se atualizar
-              </p>
-              <p>
-                <CheckCircleIcon />
-                Para quem quer se profissionalizar e conquistar o seu sucesso
-                nesse mercado que só cresce!
-              </p>
-            </div>
-            <img src={GentlBarb} />
-          </ParaContainer>
-        </section>
-        <section>
-          <GridModules></GridModules>
-        </section>
-        <section>
-          <PayGaranty />
-        </section>
-        <section>
-          <GridVideos />
-        </section>
-        <ResultContainer>
-          <div>
-            <p>
-              Confira Também alguns dos <b>resultados de alunos: </b>
-              <KeyboardDoubleArrowRightIcon />
-            </p>
-            <img src={ResultPrint} alt="print resultados alunos" />
-            <img src={ResultPrint} alt="print resultados alunos" />
-            <img src={ResultPrint} alt="print resultados alunos" />
-            <img src={ResultPrint} alt="print resultados alunos" />
-          </div>
-          <ButtonOrange>Quero me tornar um Barbeiro Profissional</ButtonOrange>
-        </ResultContainer>
-        <section>
-          <CertifyContainer>
-            <h2>Certificado de conclusão</h2>
-            <p>
-              Após concluir o Curso de GENTLEMAN BARBER você irá baixar um
-              maravilhoso certificado com 70 Horas, direto de sua área restrita,
-              sem custo adicional.
-            </p>
-            <img src={Certify} alt="foto certificado" />
-          </CertifyContainer>
-        </section>
-        <section>
-          <Bonus />
-        </section>
-        <section>
-          <TcAre />
-        </section>
-        <section>
-          <FaqArea />
-        </section>
-        <footer>
-          <FooterArea>
-            <p>
-              “Nenhuma informação contida neste produto deve ser interpretada
-              como uma afirmação da obtenção de resultados. Qualquer referência
-              ao desempenho passado ou potencial de uma estratégia abordada no
-              conteúdo não é, e não deve ser interpretada como uma recomendação
-              ou como garantia de qualquer resultado específico.”
-            </p>
-            <ButtonOrange>
-              Quero me tornar um Barbeiro Profissional
-            </ButtonOrange>
-            <Logo src={LogoBarb} alt="logo-marca" />
-            <p>Gentleman Barber 2023 © Todos os direitos reservados</p>
-          </FooterArea>
-        </footer>
       </Background>
+      <section>
+        <Carousel />
+      </section>
+      <section>
+        <ParaContainer>
+          <div>
+            <h2>
+              <b>PARA QUEM É O</b> #GENTLEMANBARBER
+            </h2>
+            <p>
+              <CheckCircleIcon />
+              Para quem já trabalha na área e quer se atualizar
+            </p>
+            <p>
+              <CheckCircleIcon />
+              Para quem está começando do zero e nunca teve contato com o mundo
+              da barbearia
+            </p>
+            <p>
+              <CheckCircleIcon />
+              Para quem quer se profissionalizar e conquistar o seu sucesso
+              nesse mercado que só cresce!
+            </p>
+            <p>
+              <CheckCircleIcon />
+              Para quem já trabalha na área e quer se atualizar
+            </p>
+            <p>
+              <CheckCircleIcon />
+              Para quem quer se profissionalizar e conquistar o seu sucesso
+              nesse mercado que só cresce!
+            </p>
+          </div>
+          <img src={GentlBarb} />
+        </ParaContainer>
+      </section>
+      <section>
+        <GridModules></GridModules>
+      </section>
+      <section>
+        <PayGaranty />
+      </section>
+      <section>
+        <GridVideos />
+      </section>
+      <ResultContainer>
+        <div>
+          <p>
+            Confira Também alguns dos <b>resultados de alunos: </b>
+            <KeyboardDoubleArrowRightIcon />
+          </p>
+          <img src={ResultPrint} alt="print resultados alunos" />
+          <img src={ResultPrint} alt="print resultados alunos" />
+          <img src={ResultPrint} alt="print resultados alunos" />
+          <img src={ResultPrint} alt="print resultados alunos" />
+        </div>
+        <ButtonOrange>Quero me tornar um Barbeiro Profissional</ButtonOrange>
+      </ResultContainer>
+      <section>
+        <CertifyContainer>
+          <h2>Certificado de conclusão</h2>
+          <p>
+            Após concluir o Curso de GENTLEMAN BARBER você irá baixar um
+            maravilhoso certificado com 70 Horas, direto de sua área restrita,
+            sem custo adicional.
+          </p>
+          <img src={Certify} alt="foto certificado" />
+        </CertifyContainer>
+      </section>
+      <section>
+        <Bonus />
+      </section>
+      <section>
+        <TcAre />
+      </section>
+      <section>
+        <FaqArea />
+      </section>
+      <footer>
+        <FooterArea>
+          <p>
+            “Nenhuma informação contida neste produto deve ser interpretada como
+            uma afirmação da obtenção de resultados. Qualquer referência ao
+            desempenho passado ou potencial de uma estratégia abordada no
+            conteúdo não é, e não deve ser interpretada como uma recomendação ou
+            como garantia de qualquer resultado específico.”
+          </p>
+          <ButtonOrange>Quero me tornar um Barbeiro Profissional</ButtonOrange>
+          <Logo src={LogoBarb} alt="logo-marca" />
+          <p>Gentleman Barber 2023 © Todos os direitos reservados</p>
+        </FooterArea>
+      </footer>
     </>
   )
 }

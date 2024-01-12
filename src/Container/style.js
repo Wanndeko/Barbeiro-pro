@@ -3,20 +3,34 @@ import styled from 'styled-components'
 import img from '../assets/baner-barba.png'
 import CutBg from '../assets/baner-corte.jpg'
 import GyBg from '../assets/gy-bg.png'
+import BarbThumb from '../assets/vdd.png'
 
 export const Background = styled.div`
+  height: 100vh;
   background-image: url(${img});
-  /* height: 100vh; */
   background-size: cover;
+  background-position: center;
+  padding: 20px 70px;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 69%);
+  }
 `
 
 export const Main = styled.main`
+  position: absolute;
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 50px;
+
   text-align: center;
   color: #fff;
+  z-index: 5;
 `
 
 export const PayMet = styled.img`
@@ -28,8 +42,8 @@ export const LogoContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 20px;
 
+  text-align: center;
   p {
     font-size: 18px;
   }
@@ -40,6 +54,7 @@ export const Logo = styled.img`
 `
 
 export const PayText = styled.h2`
+  width: 80%;
   font-family: Archivo Black;
   font-size: 30px;
   line-height: 30px;
@@ -54,8 +69,11 @@ export const IframeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 16px;
+
   iframe {
     border-radius: 5px;
+    background-image: url(${BarbThumb});
+    background-size: cover;
   }
 `
 
@@ -63,7 +81,7 @@ export const ParaContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
+  padding: 40px 70px 0px 70px;
   background-image: url(${GyBg});
   color: #fff;
 
@@ -94,6 +112,7 @@ export const ParaContainer = styled.section`
 `
 
 export const ResultContainer = styled.div`
+  background-image: url(${GyBg});
   display: flex;
   flex-direction: column;
   padding: 70px;

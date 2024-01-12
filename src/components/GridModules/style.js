@@ -15,7 +15,6 @@ export const Container = styled.div`
     }
     font-size: 24px;
     color: #fff;
-    margin: 50px 0;
   }
 `
 

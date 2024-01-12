@@ -26,7 +26,6 @@ export default function Carousel() {
         </div>
         <Swiper
           slidesPerView={4}
-          spaceBetween={1}
           loop={true}
           pagination={{
             clickable: true
