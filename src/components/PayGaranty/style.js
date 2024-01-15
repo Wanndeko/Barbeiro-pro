@@ -1,13 +1,11 @@
 import styled from 'styled-components'
 
-import GyBg from '../../assets/gy-bg.png'
-
 export const PayMet = styled.img`
   width: 60%;
 `
 
 export const PayContainer = styled.div`
-  background-image: url(${GyBg});
+  background-color: #0e0e0e;
   display: flex;
   flex-direction: column;
   align-items: center;

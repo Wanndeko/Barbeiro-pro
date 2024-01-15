@@ -9,9 +9,8 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
   background-image: url(${GyBg});
-  padding: 60px;
+  padding: 0 60px;
   overflow: hidden;
-
   > div {
     display: flex;
     flex-direction: column;

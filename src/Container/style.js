@@ -78,14 +78,12 @@ export const IframeContainer = styled.div`
 `
 
 export const ParaContainer = styled.section`
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 0px 70px;
-  background-image: url(${GyBg});
+  background-color: #0e0e0e;
   color: #fff;
-  position: relative;
 `
 
 export const Paratext = styled.div`

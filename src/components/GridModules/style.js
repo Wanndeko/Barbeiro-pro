@@ -3,9 +3,11 @@ import styled from 'styled-components'
 import GyBg from '../../assets/gy-bg.png'
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 70px;
   background-image: url(${GyBg});
-  width: 100%;
-  height: 100%;
   text-align: center;
 
   > div {
@@ -22,7 +24,6 @@ export const ContainerGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, auto));
   gap: 25px;
-  padding: 0 80px;
 `
 
 export const CardGrid = styled.div`
