@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const PayMet = styled.img`
-  width: 60%;
+  width: 50%;
 `
 
 export const PayContainer = styled.div`
@@ -9,6 +9,7 @@ export const PayContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 70px;
   text-align: center;
   font-size: 18px;
   color: #fff;
@@ -33,7 +34,7 @@ export const BtnContainer = styled.div`
   align-items: center;
   gap: 10px;
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 `
 export const SevenDaysContainer = styled.div`
@@ -44,7 +45,7 @@ export const SevenDaysContainer = styled.div`
   padding: 20px 50px;
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
   img {
     height: 160px;

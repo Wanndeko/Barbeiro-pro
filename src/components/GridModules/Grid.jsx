@@ -1,6 +1,7 @@
+import DiamondIcon from '@mui/icons-material/Diamond'
+
 import ButtonOrange from '../Button/Button'
 import { CardGrid, Container, ContainerGrid } from './style'
-
 function GridModules() {
   return (
     <Container>
@@ -10,7 +11,7 @@ function GridModules() {
       </div>
       <ContainerGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 1</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -19,7 +20,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 2</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -28,7 +29,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 3</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -37,7 +38,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 4</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -46,7 +47,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 5</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -55,7 +56,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 6</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -64,7 +65,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 7</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -73,7 +74,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 8</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas
@@ -82,7 +83,7 @@ function GridModules() {
           </p>
         </CardGrid>
         <CardGrid>
-          <p>imagem</p>
+          <DiamondIcon />
           <h3>Modulo 9</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas

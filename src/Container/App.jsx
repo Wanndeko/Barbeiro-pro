@@ -112,7 +112,6 @@ function App() {
           <img src={ResultPrint} alt="print resultados alunos" />
           <img src={ResultPrint} alt="print resultados alunos" />
           <img src={ResultPrint} alt="print resultados alunos" />
-          <img src={ResultPrint} alt="print resultados alunos" />
         </div>
         <ButtonOrange>Quero me tornar um Barbeiro Profissional</ButtonOrange>
       </ResultContainer>

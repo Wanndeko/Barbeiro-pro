@@ -5,6 +5,7 @@ import GyBg from '../../assets/gy-bg.png'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   padding: 20px 70px;
   background-image: url(${GyBg});
@@ -40,6 +41,12 @@ export const CardGrid = styled.div`
   border-radius: 5px;
   border-top: 2px solid #ec8c08;
   box-shadow: 0px 0px 4px 1px #333;
+
+  > svg {
+    color: #ec8c08;
+    font-size: 50px;
+  }
+
   h3 {
     font-size: 24px;
   }

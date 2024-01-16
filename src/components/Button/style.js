@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ButtonOr = styled.button`
-  width: 100%;
   background-color: #ec8c08;
   padding: 15px 25px;
   border: none;

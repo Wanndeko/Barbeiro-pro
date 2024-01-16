@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 import img from '../assets/baner-barba.png'
 import CutBg from '../assets/baner-corte.jpg'
+// import CutBg from '../assets/baner-corte-cinza.jpg'
 import GyBg from '../assets/gy-bg.png'
 import BarbThumb from '../assets/vdd.png'
 
@@ -34,7 +35,7 @@ export const Main = styled.main`
 `
 
 export const PayMet = styled.img`
-  width: 70%;
+  width: 50%;
 `
 
 export const LogoContainer = styled.div`
@@ -57,7 +58,7 @@ export const PayText = styled.h2`
   width: 80%;
   font-family: Archivo Black;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 26px;
   color: #fff;
   b {
     color: #ec8c08;
@@ -114,12 +115,14 @@ export const ResultContainer = styled.div`
   background-image: url(${GyBg});
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 70px;
   gap: 30px;
 
   div {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
   }
 

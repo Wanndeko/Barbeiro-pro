@@ -49,6 +49,21 @@ export default function Carousel() {
           <SwiperSlide>
             <img src={sobrancelha} alt="" />
           </SwiperSlide>
+          <SwiperSlide>
+            <img src={alisamento} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={barba} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={corte} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={degrade} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={sobrancelha} alt="" />
+          </SwiperSlide>
         </Swiper>
       </Container>
     </>
