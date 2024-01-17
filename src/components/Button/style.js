@@ -13,4 +13,7 @@ export const ButtonOr = styled.button`
     transform: scale3d(1.1, 1.1, 1);
     transition: ease 0.3s;
   }
+  @media (max-width: 580px) {
+    font-size: 16px;
+  }
 `

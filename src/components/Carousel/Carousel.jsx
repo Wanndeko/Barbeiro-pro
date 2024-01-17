@@ -11,9 +11,6 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-// import CardsCaro from '../Cards/Cards';
-// import './styles.css';
-
 import { Container } from './style'
 
 export default function Carousel() {

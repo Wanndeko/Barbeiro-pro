@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const PayMet = styled.img`
   width: 50%;
+  @media (max-width: 580px) {
+    width: 70%;
+  }
 `
 
 export const PayContainer = styled.div`
@@ -13,6 +16,9 @@ export const PayContainer = styled.div`
   text-align: center;
   font-size: 18px;
   color: #fff;
+  @media (max-width: 580px) {
+    font-size: 16px;
+  }
 `
 
 export const SplitContainer = styled.div`
@@ -25,6 +31,17 @@ export const SplitContainer = styled.div`
     font-size: 120px;
     color: #ec8c08;
     filter: drop-shadow(0px 10px 4px #000);
+  }
+
+  @media (max-width: 725px) {
+    b {
+      font-size: 100px;
+    }
+  }
+  @media (max-width: 580px) {
+    b {
+      font-size: 80px;
+    }
   }
 `
 export const BtnContainer = styled.div`
@@ -49,5 +66,21 @@ export const SevenDaysContainer = styled.div`
   }
   img {
     height: 160px;
+  }
+
+  @media (max-width: 725px) {
+    text-align: start;
+    p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 580px) {
+    display: block;
+    p {
+      font-size: 14px;
+    }
+    img {
+      height: 140px;
+    }
   }
 `

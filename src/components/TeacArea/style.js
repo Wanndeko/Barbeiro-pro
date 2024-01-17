@@ -9,6 +9,13 @@ export const TcContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 70px;
+
+  @media (max-width: 806px) {
+    flex-direction: column;
+    img {
+      height: 500px;
+    }
+  }
 `
 
 export const TcTextArea = styled.div`
@@ -28,5 +35,10 @@ export const TcTextArea = styled.div`
     color: #ec8c08;
     font-size: 40px;
     margin: 20px 0;
+  }
+
+  @media (max-width: 806px) {
+    width: 100%;
+    padding: 20px;
   }
 `

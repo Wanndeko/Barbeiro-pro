@@ -19,6 +19,15 @@ export const Container = styled.div`
     font-size: 24px;
     color: #fff;
   }
+
+  @media (max-width: 580px) {
+    > div {
+      h2 {
+        font-size: 30px;
+      }
+      font-size: 16px;
+    }
+  }
 `
 
 export const ContainerGrid = styled.div`
@@ -37,7 +46,6 @@ export const CardGrid = styled.div`
   height: 300px;
   background-color: transparent;
   background-image: linear-gradient(180deg, #2b2a2a 0%, #202020 100%);
-  font-size: 13px;
   border-radius: 5px;
   border-top: 2px solid #ec8c08;
   box-shadow: 0px 0px 4px 1px #333;
@@ -54,5 +62,30 @@ export const CardGrid = styled.div`
     font-size: 16px;
     line-height: 20px;
     letter-spacing: normal;
+  }
+
+  @media (max-width: 725px) {
+    height: 230px;
+
+    gap: 2px;
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 580px) {
+    > svg {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      line-height: 13px;
+    }
   }
 `

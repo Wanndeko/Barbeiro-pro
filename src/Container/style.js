@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 import img from '../assets/baner-barba.png'
 import CutBg from '../assets/baner-corte.jpg'
-// import CutBg from '../assets/baner-corte-cinza.jpg'
 import GyBg from '../assets/gy-bg.png'
 import BarbThumb from '../assets/vdd.png'
 
@@ -32,10 +31,21 @@ export const Main = styled.main`
   text-align: center;
   color: #fff;
   z-index: 5;
+
+  @media (max-width: 860px) {
+    width: 60%;
+  }
+  @media (max-width: 725px) {
+    width: 75%;
+  }
 `
 
 export const PayMet = styled.img`
   width: 50%;
+
+  @media (max-width: 580px) {
+    width: 60%;
+  }
 `
 
 export const LogoContainer = styled.div`
@@ -47,6 +57,19 @@ export const LogoContainer = styled.div`
   text-align: center;
   p {
     font-size: 18px;
+  }
+
+  @media (max-width: 580px) {
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    p {
+      font-size: 14px;
+    }
   }
 `
 
@@ -63,6 +86,18 @@ export const PayText = styled.h2`
   b {
     color: #ec8c08;
   }
+
+  @media (max-width: 860px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
 `
 
 export const IframeContainer = styled.div`
@@ -76,6 +111,20 @@ export const IframeContainer = styled.div`
     background-image: url(${BarbThumb});
     background-size: cover;
   }
+
+  @media (max-width: 725px) {
+    iframe {
+      height: 300px;
+    }
+  }
+  @media (max-width: 580px) {
+    iframe {
+      height: 260px;
+      width: 400px;
+    }
+  }
+
+  /* @media (max-width: 480px); */
 `
 
 export const ParaContainer = styled.section`
@@ -85,6 +134,18 @@ export const ParaContainer = styled.section`
   padding: 40px 70px 0px 70px;
   background-color: #0e0e0e;
   color: #fff;
+
+  @media (max-width: 889px) {
+    img {
+      height: 500px;
+    }
+  }
+  @media (max-width: 806px) {
+    flex-direction: column;
+    img {
+      height: 440px;
+    }
+  }
 `
 
 export const Paratext = styled.div`
@@ -94,19 +155,35 @@ export const Paratext = styled.div`
   gap: 20px;
 
   h2 {
-    font-size: 36px;
+    font-size: 24px;
     b {
       color: #ec8c08;
-      font-size: 50px;
+      font-size: 40px;
     }
   }
   p {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 18px;
+    font-size: 16px;
     > svg {
       color: #ec8c08;
+    }
+  }
+
+  @media (max-width: 806px) {
+    width: 100%;
+  }
+
+  @media (max-width: 580px) {
+    h2 {
+      font-size: 18px;
+      b {
+        font-size: 33px;
+      }
+    }
+    p {
+      font-size: 14px;
     }
   }
 `

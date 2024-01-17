@@ -36,6 +36,35 @@ export const Container = styled.div`
   .swiper {
     width: 100%;
   }
-`
 
-export const TextContainer = styled.div``
+  @media (max-width: 968px) {
+    img {
+      height: 180px;
+    }
+  }
+
+  @media (max-width: 806px) {
+    height: 100%;
+    padding: 70px 60px;
+
+    img {
+      height: 150px;
+    }
+  }
+
+  @media (max-width: 580px) {
+    > div {
+      h2 {
+        font-size: 26px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    img {
+      height: 100px;
+    }
+  }
+`
