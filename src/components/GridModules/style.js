@@ -28,12 +28,19 @@ export const Container = styled.div`
       font-size: 16px;
     }
   }
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
 `
 
 export const ContainerGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, auto));
   gap: 25px;
+
+  @media (max-width: 640px) {
+    display: block;
+  }
 `
 
 export const CardGrid = styled.div`
@@ -77,15 +84,16 @@ export const CardGrid = styled.div`
     }
   }
 
-  @media (max-width: 580px) {
+  @media (max-width: 640px) {
+    margin-bottom: 20px;
     > svg {
-      font-size: 30px;
+      font-size: 40px;
     }
     h3 {
-      font-size: 16px;
+      font-size: 24px;
     }
     p {
-      line-height: 13px;
+      line-height: 14px;
     }
   }
 `

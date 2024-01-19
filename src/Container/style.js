@@ -20,6 +20,9 @@ export const Background = styled.div`
     height: 100%;
     background-color: rgb(0 0 0 / 69%);
   }
+  @media (max-width: 480px) {
+    padding: 0;
+  }
 `
 
 export const Main = styled.main`
@@ -37,6 +40,9 @@ export const Main = styled.main`
   }
   @media (max-width: 725px) {
     width: 75%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
   }
 `
 
@@ -68,7 +74,7 @@ export const LogoContainer = styled.div`
 
   @media (max-width: 480px) {
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `
@@ -96,7 +102,7 @@ export const PayText = styled.h2`
   }
 
   @media (max-width: 480px) {
-    font-size: 20px;
+    font-size: 19px;
   }
 `
 
@@ -124,7 +130,12 @@ export const IframeContainer = styled.div`
     }
   }
 
-  /* @media (max-width: 480px); */
+  @media (max-width: 480px) {
+    iframe {
+      height: 240px;
+      width: 280px;
+    }
+  }
 `
 
 export const ParaContainer = styled.section`
@@ -144,6 +155,13 @@ export const ParaContainer = styled.section`
     flex-direction: column;
     img {
       height: 440px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 20px;
+    img {
+      height: 370px;
     }
   }
 `
@@ -221,6 +239,17 @@ export const ResultContainer = styled.div`
   img {
     height: 400px;
   }
+
+  @media (max-width: 480px) {
+    p {
+      width: 100%;
+      font-size: 30px;
+    }
+
+    img {
+      height: 360px;
+    }
+  }
 `
 
 export const CertifyContainer = styled.div`
@@ -244,6 +273,16 @@ export const CertifyContainer = styled.div`
   img {
     width: 60%;
   }
+
+  @media (max-width: 480px) {
+    padding: 40px 20px;
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 `
 export const FooterArea = styled.div`
   background-image: url(${GyBg});
@@ -253,4 +292,7 @@ export const FooterArea = styled.div`
   gap: 20px;
   padding: 70px;
   color: #fff;
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
 `

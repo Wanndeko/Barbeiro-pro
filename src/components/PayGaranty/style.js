@@ -19,6 +19,9 @@ export const PayContainer = styled.div`
   @media (max-width: 580px) {
     font-size: 16px;
   }
+  @media (max-width: 480px) {
+    padding: 0;
+  }
 `
 
 export const SplitContainer = styled.div`

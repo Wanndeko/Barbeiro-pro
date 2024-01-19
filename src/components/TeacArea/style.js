@@ -16,6 +16,14 @@ export const TcContainer = styled.div`
       height: 500px;
     }
   }
+
+  @media (max-width: 480px) {
+    padding: 0;
+
+    img {
+      height: 360px;
+    }
+  }
 `
 
 export const TcTextArea = styled.div`
@@ -40,5 +48,10 @@ export const TcTextArea = styled.div`
   @media (max-width: 806px) {
     width: 100%;
     padding: 20px;
+  }
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 30px;
+    }
   }
 `

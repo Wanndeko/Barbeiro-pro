@@ -4,6 +4,9 @@ export const FaqContainer = styled.div`
   background-color: #202020;
   padding: 70px;
   text-align: center;
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
 `
 
 export const FaqTitle = styled.div`
@@ -15,6 +18,9 @@ export const FaqTitle = styled.div`
   }
   color: #fff;
   font-size: 20px;
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
 `
 
 export const AccordionArea = styled.div`

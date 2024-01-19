@@ -10,6 +10,15 @@ export const BonusArea = styled.div`
   > h2 {
     font-size: 40px;
   }
+  @media (max-width: 480px) {
+    padding: 70px 16px;
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 `
 
 export const CardArea = styled.div`
@@ -33,6 +42,13 @@ export const CardBonus = styled.div`
 
   background-color: #2b2a2a;
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.28);
+
+  @media (max-width: 480px) {
+    img {
+      height: 120px;
+    }
+    padding: 24px;
+  }
 `
 
 export const TextArea = styled.div`
@@ -46,5 +62,14 @@ export const TextArea = styled.div`
   p {
     font-weight: 300;
     letter-spacing: 1px;
+  }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
   }
 `
