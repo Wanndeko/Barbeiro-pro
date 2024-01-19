@@ -25,6 +25,8 @@
 <h2>Descrição📃</h2>
 <p>Landing page profissional feita para venda de cursos online.</p>
 
+<a href=https://barbeiro-pro.vercel.app/ target="blank">Link do projeto online 🚀 </a>
+
 <h2>Executando na Maquina⚙️</h2>
 <p>Para executar este projeto basta abrir o terminal e digitar git clone copiar e colar o link (https://github.com/Wanndeko/Barbeiro-pro.git) e teclar enter. Com o projeto aberto, no terminal do editor de codigo, digite npm install para instalar as dependencias, com tudo pronto digite npm run dev  e se tudo ocorrer bem o projeto ira abrir no navegador.</p>
 
